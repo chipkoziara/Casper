@@ -22,8 +22,20 @@ into the {body} of the default.hbs template --}}
 
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
-    <div class="inner posts">
+    <div class="post-full-content">
+        <h1>Me in 30 seconds</h1>
+        <p>I grew up in a small town in northern Michigan.</p>
+        <p>I attended the University of Michigan – Go Blue!</p>
+        <p>During my time at the University of Michigan, I interned at a startup and worked on real estate development projects with the State of Michigan’s economic development arm.</p>
+        <p>In 2014, I joined Venture for America, a two-year entrepreneurial fellowship program. Over the span of my fellowship, I worked at a geospatial software development company and co-founded a chat bot startup.</p>
+        <p>Now I’m at Uber, growing Uber Eats.</p>
+        <p>I’m interested in learning about why new markets emerge, why customers participate in these markets, and how to build products that tap into these forces.</p>
+        <p><a href="{{@site.url}}/now">Here’s more about what I’m up to now.</a></p>
+        <hr></hr>
+    </div>
 
+    <div class="inner posts">
+        <h1>Articles</h1>
         <div class="post-feed">
             {{#foreach posts}}
 
